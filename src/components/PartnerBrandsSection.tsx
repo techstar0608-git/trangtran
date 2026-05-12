@@ -142,7 +142,7 @@ function ScrollRevealHeading({ visible }: { visible: boolean }) {
         Minh bạch sản phẩm trong từng bước làm
       </h2>
       <p className="mt-4 leading-relaxed text-stone-600">
-        Tran Tran chỉ làm đẹp trên chất liệu tóc của bạn với các dòng sản phẩm uy tín, có hướng dẫn
+        Trang Tran Hair chỉ làm đẹp trên chất liệu tóc của bạn với các dòng sản phẩm uy tín, có hướng dẫn
         và ghi nhận rõ trong quy trình — dưới đây là bốn hướng hợp tác Salon lựa chọn.
       </p>
     </header>

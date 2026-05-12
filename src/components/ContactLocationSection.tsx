@@ -166,7 +166,7 @@ export function ContactLocationSection({
           </a>
 
           <iframe
-            title="Bản đồ Tran Tran Hair Studio — Sóc Trăng"
+            title="Bản đồ Trang Tran Hair — Sóc Trăng"
             src={mapsEmbedSrc}
             className="absolute inset-0 h-full w-full border-0"
             loading="lazy"

@@ -11,7 +11,7 @@ const heroPortraitSrc =
   "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&w=1400&q=85";
 
 const site = {
-  brand: "Tran Tran",
+  brand: "Trang Tran Hair",
   tagline: "Mong một khách đến trăm lần còn hơn trăm khách đến một lần",
   /** Hero location line — short label like reference (“Berlin, Germany”) */
   heroLocation: "TP. Sóc Trăng · Việt Nam",
@@ -20,14 +20,13 @@ const site = {
   mapsUrl:
     "https://www.google.com/maps/search/?api=1&query=" +
     encodeURIComponent("18-19 LK2 khu dân cư Tuấn Lan, Hùng Vương, TP. Sóc Trăng, Việt Nam"),
-  /** Cập nhật số điện thoại / Instagram thật khi triển khai */
+  /** Cập nhật số hotline thật khi triển khai */
   phone: "0299 382 6789",
   phoneHref: "tel:+842993826789",
-  instagram: "@trantran.hairstudio",
-  instagramUrl: "https://instagram.com/",
-  /** Cập nhật đúng trang salon khi triển khai */
-  facebookUrl: "https://www.facebook.com/",
-  tiktokUrl: "https://www.tiktok.com/",
+  instagram: "@trang_tran_hair",
+  instagramUrl: "https://www.instagram.com/trang_tran_hair/",
+  facebookUrl: "https://www.facebook.com/trang.tran.352944/",
+  tiktokUrl: "https://www.tiktok.com/@trangtranhair",
   bookingNote: "Đặt lịch qua hotline hoặc tin nhắn Instagram",
   /** Embed Google Maps (search theo địa chỉ — thay bằng URL embed Share từ Maps nếu cần pin khớp hơn) */
   mapsEmbedSrc:
@@ -116,7 +115,7 @@ export default function Home() {
               <div className="relative z-[1] aspect-[3/4] w-full overflow-hidden rounded-tr-[clamp(96px,_18vw,_180px)] rounded-bl-[clamp(96px,_18vw,_180px)] shadow-[0_40px_80px_-28px_rgba(28,_25,_23,_0.42)] lg:aspect-[11/13] xl:aspect-[10/13]">
                 <Image
                   src={heroPortraitSrc}
-                  alt="Khách tại salon Tran Tran Hair Studio — phong cách hiện đại, nhẹ nhàng"
+                  alt="Khách tại salon Trang Tran Hair — phong cách hiện đại, nhẹ nhàng"
                   fill
                   priority
                   fetchPriority="high"
@@ -136,12 +135,12 @@ export default function Home() {
               Bước tiến lớn
             </p>
             <h2 className="font-display mt-3 max-w-[20ch] text-3xl font-semibold tracking-tight text-stone-900 sm:text-4xl">
-              Hành trình Tran Tran tại Sóc Trăng
+              Hành trình Trang Tran Hair tại Sóc Trăng
             </h2>
             <div className="mt-12 grid gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:gap-14 lg:items-start">
               <div className="space-y-5 text-[1.03rem] leading-relaxed text-stone-600">
                 <p>
-                  Tran Tran bắt đầu từ một không gian nhỏ, tập trung vào tay nghề và
+                  Trang Tran Hair bắt đầu từ một không gian nhỏ, tập trung vào tay nghề và
                   sự chỉn chu trong từng đường kéo. Qua thời gian, chúng tôi mở rộng
                   studio tại trung tâm{" "}
                   <strong className="font-semibold text-stone-800">
@@ -162,7 +161,7 @@ export default function Home() {
                   Về chúng tôi
                 </p>
                 <p className="mt-4 pl-5 text-sm leading-relaxed text-stone-600">
-                  Tran Tran Hair Studio đặt khách hàng trung tâm — từ tư vấn kiểu phù
+                  Trang Tran Hair đặt khách hàng trung tâm — từ tư vấn kiểu phù
                   hợp khuôn mặt đến chăm sóc sau dịch vụ. Chúng tôi hợp tác các dòng
                   sản phẩm uy tín để bảo vệ cấu trúc tóc trong suốt quy trình làm đẹp.
                 </p>
@@ -187,7 +186,7 @@ export default function Home() {
                 {site.instagram}
               </h2>
               <p className="mx-auto mt-5 max-w-xl text-[0.97rem] leading-relaxed text-stone-400">
-                Theo dõi Tran Tran để xem các mẫu tóc mới, combo dịch vụ và khuyến mãi
+                Theo dõi Trang Tran Hair để xem các mẫu tóc mới, combo dịch vụ và khuyến mãi
                 theo mùa.
               </p>
               <a
@@ -262,7 +261,7 @@ export default function Home() {
           <div className="max-w-xl text-center leading-relaxed sm:text-left">
             <p className="text-stone-600">
               © {new Date().getFullYear()}{" "}
-              <span className="font-semibold text-stone-700">{site.brand}</span> Hair Studio
+              <span className="font-semibold text-stone-700">{site.brand}</span>
             </p>
             <p className="mt-3">
               <a

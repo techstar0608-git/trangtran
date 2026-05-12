@@ -121,7 +121,7 @@ export function SiteHeader({ brand, nav }: Props) {
 
           <a
             href="#home"
-            className="font-display text-center text-2xl font-semibold tracking-tight text-stone-900 transition hover:opacity-80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4"
+            className="font-display max-w-[220px] text-center text-[1.0625rem] font-semibold leading-tight tracking-tight text-stone-900 transition hover:opacity-80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 sm:max-w-none sm:text-xl md:text-2xl"
             style={{ outlineColor: NAV_ACCENT }}
           >
             {brand}
@@ -143,7 +143,7 @@ export function SiteHeader({ brand, nav }: Props) {
         <div className="flex items-center justify-between gap-3 md:hidden">
           <a
             href="#home"
-            className="font-display min-w-0 truncate text-lg font-semibold text-stone-900"
+            className="font-display min-w-0 flex-1 pr-2 text-[0.95rem] font-semibold leading-snug text-stone-900 sm:text-lg"
           >
             {brand}
           </a>

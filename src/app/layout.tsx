@@ -15,12 +15,12 @@ const cormorant = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
-  title: "Tran Tran — Hair Studio | TP. Sóc Trăng",
+  title: "Trang Tran Hair | TP. Sóc Trăng",
   description:
-    "Salon tóc tại TP. Sóc Trăng — cắt thiết kế, nhuộm, uốn, duỗi. Đặt lịch và tư vấn kiểu tóc phù hợp gu của bạn.",
+    "Salon tóc Trang Tran Hair tại TP. Sóc Trăng — cắt thiết kế, nhuộm, uốn, duỗi. Đặt lịch và tư vấn kiểu tóc phù hợp gu của bạn.",
   openGraph: {
-    title: "Tran Tran — Hair Studio",
-    description: "Hair studio tại TP. Sóc Trăng, Việt Nam.",
+    title: "Trang Tran Hair",
+    description: "Salon Trang Tran Hair tại TP. Sóc Trăng, Việt Nam.",
     locale: "vi_VN",
   },
 };
